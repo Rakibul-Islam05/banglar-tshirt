@@ -18,7 +18,7 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<Home></Home>,
-        loader:()=>fetch('tshirts.json');
+        loader:()=>fetch('tshirts.json')
       },
       {
         path:'review',
